@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 30px;
+    width: 400px; 
+    height: 60px; 
+}
+
+.form1 {
+    background-color: #21293C;
+    border-radius: 10px;
+    width: 70%; 
+    height: 300px; 
+    margin: 0 auto;
+}
+
+.form_get{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.form_button{
+    background-color: #8BDBE4;
+    border-radius: 10px;
+    width: 70%; 
+    height: 50px; 
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
